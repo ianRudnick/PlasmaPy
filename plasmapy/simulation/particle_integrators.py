@@ -27,7 +27,7 @@ def boris_push(x, v, B, E, q, m, dt, inplace: bool = True):
     B : `~numpy.ndarray`
         Magnetic field at full timestep, in SI (tesla) units.
 
-    E : `float`
+    E : `~numpy.ndarray`
         Electric field at full timestep, in SI (V/m) units.
 
     q : `float`
