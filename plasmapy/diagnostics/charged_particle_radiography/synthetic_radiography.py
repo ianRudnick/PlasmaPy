@@ -69,7 +69,7 @@ def _coerce_to_cartesian_si(pos):
 
 
 class Tracker:
-    r"""
+    """
     Represents a charged particle radiography experiment with simulated or
     calculated E and B fields given at positions defined by a grid of spatial
     coordinates. The particle source and detector plane are defined by vectors
